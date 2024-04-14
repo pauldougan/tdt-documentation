@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en" class="govuk-template no-js">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <title>Set review date for pages - Tech docs template</title>
+
+    <link href="/stylesheets/manifest.css" rel="stylesheet" />
+
+    <link rel="canonical" href="https://tdt-documentation.london.cloudapps.digital//configure_project/page_expiry_and_review/">
+
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:domain" content="tdt-documentation.london.cloudapps.digital" />
+      <meta name="twitter:image" content="https://tdt-documentation.london.cloudapps.digital//images/govuk-large.png" />
+      <meta name="twitter:title" content="Set review date for pages - Tech docs template" />
+      <meta name="twitter:url" content="https://tdt-documentation.london.cloudapps.digital//configure_project/page_expiry_and_review/" />
+
+      <meta property="og:image" content="https://tdt-documentation.london.cloudapps.digital//images/govuk-large.png" />
+      <meta property="og:site_name" content="Tech docs template" />
+      <meta property="og:title" content="Set review date for pages" />
+      <meta property="og:type" content="object" />
+      <meta property="og:url" content="https://tdt-documentation.london.cloudapps.digital//configure_project/page_expiry_and_review/" />
+
+    
+  </head>
+
+  <body class="govuk-template__body">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+    <div class="app-pane">
+      <div class="app-pane__header toc-open-disabled">
+        <a href="#content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+        <header class="govuk-header app-header" role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-header__container--full-width">
+    <div class="govuk-header__logo">
+      <a href="https://tdt-documentation.london.cloudapps.digital/" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__product-name">
+          Tech docs template
+        </span>
+      </a>
+        <strong class="govuk-tag">Beta</strong>
+    </div>
+    <div class="govuk-header__content">
+      <nav class="govuk-header__navigation govuk-header__navigation--end" aria-label="Menu">
+        <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide menu">Menu</button>
+        <ul id="navigation" class="govuk-header__navigation-list">
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="https://github.com/alphagov/tech-docs-template">Template</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="https://github.com/alphagov/tech-docs-gem">Ruby gem</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/support">Support</a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+      </div>
+
+        <div id="toc-heading" class="toc-show fixedsticky">
+          <button type="button" class="toc-show__label js-toc-show" aria-controls="toc">
+            Table of contents <span class="toc-show__icon"></span>
+          </button>
+        </div>
+
+      <div class="app-pane__body" data-module="in-page-navigation">
+          <div class="app-pane__toc">
+            <div class="toc" data-module="table-of-contents" tabindex="-1" aria-label="Table of contents" role="dialog">
+              <div class="search" data-module="search" data-path-to-site-root="/">
+  <form action="https://www.google.co.uk/search" method="get" role="search" class="search__form govuk-!-margin-bottom-4">
+    <input type="hidden" name="as_sitesearch" value="https://tdt-documentation.london.cloudapps.digital/"/>
+    <label class="govuk-label search__label" for="search" aria-hidden="true">
+      Search (via Google)
+    </label>
+    <input
+      type="text"
+      id="search" name="q"
+      class="govuk-input govuk-!-margin-bottom-0 search__input"
+      aria-controls="search-results"
+      placeholder="Search">
+    <button type="submit" class="search__button">Search</button>
+  </form>
+</div>
+
+              <button type="button" class="toc__close js-toc-close" aria-controls="toc" aria-label="Hide table of contents"></button>
+              <nav id="toc" class="js-toc-list toc__list" aria-labelledby="toc-heading" data-module="collapsible-navigation">
+                      <ul>
+  <li>
+    <a href="/"><span>Technical Documentation Template</span></a>
+  </li>
+<li><a href="/create_project/"><span>Create a documentation project</span></a>
+<ul>
+  <li>
+    <a href="/create_project/get_started/"><span>Get started</span></a>
+  </li>
+  <li>
+    <a href="/create_project/create_new_project/"><span>Create a new documentation project</span></a>
+  </li>
+  <li>
+    <a href="/create_project/preview/"><span>Preview your documentation</span></a>
+  </li>
+  <li>
+    <a href="/create_project/build/"><span>Build your documentation</span></a>
+  </li>
+</ul>
+</li>
+<li><a href="/configure_project/"><span>Configure your documentation project</span></a>
+<ul>
+  <li>
+    <a href="/configure_project/global_configuration/"><span>Configure your documentation site</span></a>
+  </li>
+  <li>
+    <a href="/configure_project/structure_docs/"><span>Structure your documentation</span></a>
+  </li>
+  <li>
+    <a href="/configure_project/frontmatter/"><span>Configure page settings</span></a>
+  </li>
+  <li>
+    <a href="/configure_project/page_expiry_and_review/"><span>Set review date for pages</span></a>
+  </li>
+</ul>
+</li>
+<li><a href="/write_docs/"><span>Write your documentation</span></a>
+<ul>
+  <li>
+    <a href="/write_docs/content/"><span>Write your content</span></a>
+  </li>
+  <li>
+    <a href="/write_docs/add_openapi_spec/"><span>Convert an OpenAPI specification into documentation</span></a>
+  </li>
+</ul>
+</li>
+<li><a href="/maintain_project/"><span>Maintain your documentation project</span></a>
+<ul>
+  <li>
+    <a href="/maintain_project/use_latest_template/"><span>Use the latest template version</span></a>
+  </li>
+  <li>
+    <a href="/maintain_project/review_content/"><span>Set up regular content reviews</span></a>
+  </li>
+  <li>
+    <a href="/maintain_project/redirects/"><span>Set up redirects</span></a>
+  </li>
+</ul>
+</li>
+<li><a href="/publish_project/"><span>Publish your documentation project</span></a>
+<ul>
+  <li>
+    <a href="/publish_project/deploy/"><span>Deploy and host your documentation site</span></a>
+  </li>
+  <li>
+    <a href="/publish_project/version/"><span>Use version control</span></a>
+  </li>
+</ul>
+</li>
+  <li>
+    <a href="/support/"><span>Support</span></a>
+  </li>
+</ul>
+
+
+              </nav>
+            </div>
+          </div>
+
+        <div class="app-pane__content toc-open-disabled" aria-label="Content" tabindex="0">
+          <main id="content" class="technical-documentation" data-module="anchored-headings">
+            <h1 id="set-review-date-for-pages">Set review date for pages</h1>
+<p>It&rsquo;s possible to include frontmatter configuration for a page to set an
+expiration date for a piece of content. The expiration date is calculated using the <code>last_reviewed_on</code> and <code>review_in</code> frontmatter configuration parameters.</p>
+<p>The <code>show_expiry</code> parameter in the global configuration file decides if the banners at the bottom of the page say that the page is expired or not.</p>
+<p>For <code>show_expiry: true</code>, the banner at the bottom turns red if it&rsquo;s past the expiration date.</p>
+<p>If the page doesn&rsquo;t need to be reviewed, we show a blue box with the
+last-reviewed date, when it needs review again, and the owner.</p>
+<p><img src="/images/not-expired-page.png" alt="Banner that shows that page is not expired" /></p>
+<p>If the page needs to be reviewed, we show a red box saying the page might not
+be accurate.</p>
+<p><img src="/images/expired-page.png" alt="Banner that shows that page is expired" /></p>
+<p>Setting <code>show_expiry: false</code> generates a blue banner with the last reviewed date. This banner stays the same whether the page needs to be reviewed or not.  The banner does not mention when the page needs to be reviewed next or who the owner is.</p>
+<p><img src="/images/last-reviewed-only.png" alt="Banner that shows that page needs review" /></p>
+<p>This feature relies on JavaScript being enabled on the user&rsquo;s browser to
+display the relevant notices.</p>
+<p>If you want to disable the banners, but keep the review dates in the frontmatter, add the following to your global configuration file:</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">show_review_banner</span><span class="pi">:</span> <span class="no">false</span>
+</code></pre></div><p>The page review banner will no longer appear at the bottom of the page, but Daniel the Manual Spaniel will still notify you about expired pages.</p>
+<h2 id="frontmatter-configuration">Frontmatter configuration</h2>
+<h3 id="last-reviewed-on-and-review-in"><code>last_reviewed_on</code> and <code>review_in</code></h3>
+<p>These attributes determine the date when the page needs to be reviewed next.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="nn">---</span>
+<span class="na">last_reviewed_on</span><span class="pi">:</span> <span class="s">2018-01-18</span>
+<span class="na">review_in</span><span class="pi">:</span> <span class="s">6 weeks</span>
+<span class="nn">---</span>
+</code></pre></div><p>You can use this in combination with <code>owner_slack</code> or <code>default_owner_slack</code> to
+set an owner for the page.</p>
+<h3 id="owner-slack"><code>owner_slack</code></h3>
+<p>The Slack username or channel of the page owner. This can be used to appoint an
+individual or team as responsible for keeping the page up to date.</p>
+<h2 id="global-configuration">Global configuration</h2>
+<h3 id="owner-slack-workspace"><code>owner_slack_workspace</code></h3>
+<p>The Slack workspace name used when linking to the Slack owner of a piece of
+content. If not provided, the owner of a piece of content (channel or user)
+won&rsquo;t be linked.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">owner_slack_workspace</span><span class="pi">:</span> <span class="s">gds</span>
+</code></pre></div><h3 id="default-owner-slack"><code>default_owner_slack</code></h3>
+<p>The default Slack user or channel name to show as the owner of a piece of
+content. Can be overridden using the <code>owner_slack</code> frontmatter config option.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">default_owner_slack</span><span class="pi">:</span> <span class="s1">'</span><span class="s">#owner'</span>
+</code></pre></div><h2 id="page-api">Page API</h2>
+<p>The expiry date for each page is also shown in the <code>/api/pages.json</code>
+representation of all pages.  This is used by the
+<a href="https://github.com/alphagov/tech-docs-monitor">page expiry notifier</a> to post
+messages to Slack when pages have expired.</p>
+
+              <div data-module='page-expiry' data-last-reviewed-on="2021-07-01">
+    <div class='page-expiry--not-expired'>
+      This page was last reviewed on 1 July 2020.
+
+        It needs to be reviewed again on 1 July 2021
+        by the page owner <a href="https://gds.slack.com/messages/gds-technical-writing">#gds-technical-writing</a>
+        .
+    </div>
+
+    <div class='page-expiry--expired'>
+      This page was set to be reviewed before 1 July 2021
+       by the page owner <a href="https://gds.slack.com/messages/gds-technical-writing">#gds-technical-writing</a>.
+      This might mean the content is out of date.
+    </div>
+  </div>
+
+          </main>
+
+          <aside>
+              <ul class="contribution-banner">
+                <li><a href="https://github.com/alphagov/tdt-documentation/blob/master/source/configure_project/page_expiry_and_review/index.html.md.erb">View source</a></li>
+                <li><a href="https://github.com/alphagov/tdt-documentation/issues/new?body=Problem+with+%27Set+review+date+for+pages%27+%28https%3A%2F%2Ftdt-documentation.london.cloudapps.digital%2F%2Fconfigure_project%2Fpage_expiry_and_review%2F%29&amp;labels=bug&amp;title=Re%3A+%27Set+review+date+for+pages%27">Report problem</a></li>
+                <li><a href="https://github.com/alphagov/tdt-documentation">GitHub Repo</a></li>
+              </ul>
+          </aside>
+
+          <footer class="govuk-footer app-footer" role="contentinfo">
+  <div class="govuk-footer__meta">
+    <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+
+        <ul class="govuk-footer__inline-list">
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="/accessibility/">Accessibility</a>
+            </li>
+        </ul>
+
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        class="govuk-footer__licence-logo"
+        xmlns="http://www.w3.org/2000/svg"
+        viewbox="0 0 483.2 195.7"
+        height="17"
+        width="41"
+      >
+        <path
+          fill="currentColor"
+          d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+        />
+      </svg>
+      <span class="govuk-footer__licence-description">
+        All content is available under the
+        <a
+          class="govuk-footer__link"
+          href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+          rel="license"
+        >Open Government Licence v3.0</a>, except where otherwise stated
+      </span>
+    </div>
+    <div class="govuk-footer__meta-item">
+      <a
+        class="govuk-footer__link govuk-footer__copyright-logo"
+        href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+      >© Crown copyright</a>
+    </div>
+  </div>
+</footer>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="/javascripts/application.js"></script>
+  </body>
+</html>

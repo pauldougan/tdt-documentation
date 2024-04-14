@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en" class="govuk-template no-js">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <title>Configure your documentation site - Tech docs template</title>
+
+    <link href="/stylesheets/manifest.css" rel="stylesheet" />
+
+    <link rel="canonical" href="https://tdt-documentation.london.cloudapps.digital//configure_project/global_configuration/">
+
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:domain" content="tdt-documentation.london.cloudapps.digital" />
+      <meta name="twitter:image" content="https://tdt-documentation.london.cloudapps.digital//images/govuk-large.png" />
+      <meta name="twitter:title" content="Configure your documentation site - Tech docs template" />
+      <meta name="twitter:url" content="https://tdt-documentation.london.cloudapps.digital//configure_project/global_configuration/" />
+
+      <meta property="og:image" content="https://tdt-documentation.london.cloudapps.digital//images/govuk-large.png" />
+      <meta property="og:site_name" content="Tech docs template" />
+      <meta property="og:title" content="Configure your documentation site" />
+      <meta property="og:type" content="object" />
+      <meta property="og:url" content="https://tdt-documentation.london.cloudapps.digital//configure_project/global_configuration/" />
+
+    
+  </head>
+
+  <body class="govuk-template__body">
+    <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+    <div class="app-pane">
+      <div class="app-pane__header toc-open-disabled">
+        <a href="#content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
+
+        <header class="govuk-header app-header" role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-header__container--full-width">
+    <div class="govuk-header__logo">
+      <a href="https://tdt-documentation.london.cloudapps.digital/" class="govuk-header__link govuk-header__link--homepage">
+        <span class="govuk-header__product-name">
+          Tech docs template
+        </span>
+      </a>
+        <strong class="govuk-tag">Beta</strong>
+    </div>
+    <div class="govuk-header__content">
+      <nav class="govuk-header__navigation govuk-header__navigation--end" aria-label="Menu">
+        <button type="button" class="govuk-header__menu-button govuk-js-header-toggle" aria-controls="navigation" aria-label="Show or hide menu">Menu</button>
+        <ul id="navigation" class="govuk-header__navigation-list">
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="https://github.com/alphagov/tech-docs-template">Template</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="https://github.com/alphagov/tech-docs-gem">Ruby gem</a>
+            </li>
+            <li class="govuk-header__navigation-item">
+              <a class="govuk-header__link" href="/support">Support</a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+      </div>
+
+        <div id="toc-heading" class="toc-show fixedsticky">
+          <button type="button" class="toc-show__label js-toc-show" aria-controls="toc">
+            Table of contents <span class="toc-show__icon"></span>
+          </button>
+        </div>
+
+      <div class="app-pane__body" data-module="in-page-navigation">
+          <div class="app-pane__toc">
+            <div class="toc" data-module="table-of-contents" tabindex="-1" aria-label="Table of contents" role="dialog">
+              <div class="search" data-module="search" data-path-to-site-root="/">
+  <form action="https://www.google.co.uk/search" method="get" role="search" class="search__form govuk-!-margin-bottom-4">
+    <input type="hidden" name="as_sitesearch" value="https://tdt-documentation.london.cloudapps.digital/"/>
+    <label class="govuk-label search__label" for="search" aria-hidden="true">
+      Search (via Google)
+    </label>
+    <input
+      type="text"
+      id="search" name="q"
+      class="govuk-input govuk-!-margin-bottom-0 search__input"
+      aria-controls="search-results"
+      placeholder="Search">
+    <button type="submit" class="search__button">Search</button>
+  </form>
+</div>
+
+              <button type="button" class="toc__close js-toc-close" aria-controls="toc" aria-label="Hide table of contents"></button>
+              <nav id="toc" class="js-toc-list toc__list" aria-labelledby="toc-heading" data-module="collapsible-navigation">
+                      <ul>
+  <li>
+    <a href="/"><span>Technical Documentation Template</span></a>
+  </li>
+<li><a href="/create_project/"><span>Create a documentation project</span></a>
+<ul>
+  <li>
+    <a href="/create_project/get_started/"><span>Get started</span></a>
+  </li>
+  <li>
+    <a href="/create_project/create_new_project/"><span>Create a new documentation project</span></a>
+  </li>
+  <li>
+    <a href="/create_project/preview/"><span>Preview your documentation</span></a>
+  </li>
+  <li>
+    <a href="/create_project/build/"><span>Build your documentation</span></a>
+  </li>
+</ul>
+</li>
+<li><a href="/configure_project/"><span>Configure your documentation project</span></a>
+<ul>
+  <li>
+    <a href="/configure_project/global_configuration/"><span>Configure your documentation site</span></a>
+  </li>
+  <li>
+    <a href="/configure_project/structure_docs/"><span>Structure your documentation</span></a>
+  </li>
+  <li>
+    <a href="/configure_project/frontmatter/"><span>Configure page settings</span></a>
+  </li>
+  <li>
+    <a href="/configure_project/page_expiry_and_review/"><span>Set review date for pages</span></a>
+  </li>
+</ul>
+</li>
+<li><a href="/write_docs/"><span>Write your documentation</span></a>
+<ul>
+  <li>
+    <a href="/write_docs/content/"><span>Write your content</span></a>
+  </li>
+  <li>
+    <a href="/write_docs/add_openapi_spec/"><span>Convert an OpenAPI specification into documentation</span></a>
+  </li>
+</ul>
+</li>
+<li><a href="/maintain_project/"><span>Maintain your documentation project</span></a>
+<ul>
+  <li>
+    <a href="/maintain_project/use_latest_template/"><span>Use the latest template version</span></a>
+  </li>
+  <li>
+    <a href="/maintain_project/review_content/"><span>Set up regular content reviews</span></a>
+  </li>
+  <li>
+    <a href="/maintain_project/redirects/"><span>Set up redirects</span></a>
+  </li>
+</ul>
+</li>
+<li><a href="/publish_project/"><span>Publish your documentation project</span></a>
+<ul>
+  <li>
+    <a href="/publish_project/deploy/"><span>Deploy and host your documentation site</span></a>
+  </li>
+  <li>
+    <a href="/publish_project/version/"><span>Use version control</span></a>
+  </li>
+</ul>
+</li>
+  <li>
+    <a href="/support/"><span>Support</span></a>
+  </li>
+</ul>
+
+
+              </nav>
+            </div>
+          </div>
+
+        <div class="app-pane__content toc-open-disabled" aria-label="Content" tabindex="0">
+          <main id="content" class="technical-documentation" data-module="anchored-headings">
+            <h1 id="configure-your-documentation-site">Configure your documentation site</h1>
+<p>You can configure your documentation site by editing the <code>config/tech-docs.yml</code> file in a text editor.</p>
+<p>When you create your documentation project, the template creates a <code>tech-docs.yml</code> file with the following default settings:</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="c1"># Host to use for canonical URL generation (without trailing slash)</span>
+<span class="na">host</span><span class="pi">:</span>
+
+<span class="c1"># Header-related options</span>
+<span class="na">show_govuk_logo</span><span class="pi">:</span> <span class="no">true</span>
+<span class="na">service_name</span><span class="pi">:</span> <span class="s">My First Service</span>
+<span class="na">service_link</span><span class="pi">:</span> <span class="s">https://www.larry-the-cat.service.gov.uk</span>
+<span class="na">phase</span><span class="pi">:</span> <span class="s">Beta</span>
+
+<span class="c1"># Links to show on right-hand-side of header</span>
+<span class="na">header_links</span><span class="pi">:</span>
+  <span class="na">About</span><span class="pi">:</span> <span class="s">https://www.larry-the-cat.service.gov.uk</span>
+  <span class="na">Get Started</span><span class="pi">:</span> <span class="s">https://www.larry-the-cat.service.gov.uk/get-started</span>
+  <span class="na">Documentation</span><span class="pi">:</span> <span class="s">/</span>
+  <span class="na">Support</span><span class="pi">:</span> <span class="s">https://www.larry-the-cat.service.gov.uk/support</span>
+
+<span class="c1"># Enables search functionality. This indexes pages only and is not recommended for single-page sites.</span>
+<span class="na">enable_search</span><span class="pi">:</span> <span class="no">false</span>
+
+<span class="c1"># Tracking ID from Google Analytics (for example UA-XXXX-Y)</span>
+<span class="na">ga_tracking_id</span><span class="pi">:</span>
+
+<span class="c1"># Enable multipage navigation in the sidebar</span>
+<span class="na">multipage_nav</span><span class="pi">:</span> <span class="no">false</span>
+
+<span class="c1"># Enable collapsible navigation in the sidebar</span>
+<span class="na">collapsible_nav</span><span class="pi">:</span> <span class="no">false</span>
+
+<span class="c1"># Table of contents depth – how many levels to include in the table of contents.</span>
+<span class="c1"># If your ToC is too long, reduce this number and we'll only show higher-level</span>
+<span class="c1"># headings.</span>
+<span class="na">max_toc_heading_level</span><span class="pi">:</span> <span class="m">6</span>
+
+<span class="c1"># Prevent robots from indexing (for example whilst in development)</span>
+<span class="na">prevent_indexing</span><span class="pi">:</span> <span class="no">false</span>
+
+<span class="na">show_contribution_banner</span><span class="pi">:</span> <span class="no">true</span>
+<span class="na">github_repo</span><span class="pi">:</span> <span class="s">alphagov/YOUR_REPO</span>
+<span class="na">github_branch</span><span class="pi">:</span> <span class="s">main</span>
+</code></pre></div>
+<div class="govuk-warning-text">
+  <span class="govuk-warning-text__icon" aria-hidden="true">!</span>
+  <strong class="govuk-warning-text__text">
+    <span class="govuk-warning-text__assistive">Warning</span>
+    All of these settings are optional. However, you should enable or disable settings to increase the usability of your documentation or because of best practice.
+  </strong>
+</div>
+<p>You must wrap a value in quotes if it contains a colon, unless the value is a URL. For example:</p>
+<div class="highlight"><pre class="highlight plaintext" tabindex="0"><code>description: "GDS: My amazing documentation"
+</code></pre></div><p>If you are not sure which settings to enable or disable, <a href="mailto:technical-writers@digital.cabinet-office.gov.uk">contact the Government Digital Service (GDS) technical writing team</a>.</p>
+<p>See the <a href="https://github.com/alphagov/paas-tech-docs/blob/main/config/tech-docs.yml">Platfom as a Service (PaaS) tech docs config file</a> for an example <code>tech-docs.yml</code> file.</p>
+<h2 id="default-settings">Default settings</h2>
+<p>The following section defines the default settings in the <code>tech-docs.yml</code> file, and tells you how to enable and disable them.</p>
+<h3 id="host">host</h3>
+<p>Defines the host used for canonical URL generation (without trailing slash).</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">host</span><span class="pi">:</span> <span class="s">https://docs.cloud.service.gov.uk</span>
+</code></pre></div><h3 id="show-govuk-logo">show_govuk_logo</h3>
+<p>Enables and disables the GOV.UK crown logo in the top left corner of the site. Defaults to <code>true</code>.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">show_govuk_logo</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div><h3 id="service-name">service_name</h3>
+<p>Defines the service name in the header. Defaults to &ldquo;My First Service&rdquo; if you do not define it when creating your project.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">service_name</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Platform</span><span class="nv"> </span><span class="s">as</span><span class="nv"> </span><span class="s">a</span><span class="nv"> </span><span class="s">Service"</span>
+</code></pre></div><h3 id="service-link">service_link</h3>
+<p>What the service name in the header links to. Defaults to &ldquo;https://www.larry-the-cat.service.gov.uk&rdquo; if you do not define it when creating your project.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">service_link</span><span class="pi">:</span> <span class="s2">"</span><span class="s">https://www.larry-the-cat.service.gov.uk"</span>
+</code></pre></div><h3 id="phase">phase</h3>
+<p>Defines the phase of the service that the documentation is attached to. Defaults to &ldquo;Beta&rdquo;.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">phase</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Beta"</span>
+</code></pre></div><h3 id="header-links">header_links</h3>
+<p>Populates the top right banner navigation with links. You can change the number and text of the default links. For example:</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">header_links</span><span class="pi">:</span>
+  <span class="na">About</span><span class="pi">:</span> <span class="s">https://www.payments.service.gov.uk/#main</span>
+  <span class="na">Get started</span><span class="pi">:</span> <span class="s">https://www.payments.service.gov.uk/getstarted/</span>
+  <span class="na">Documentation</span><span class="pi">:</span> <span class="s">/</span>
+  <span class="na">Support</span><span class="pi">:</span> <span class="s">https://www.payments.service.gov.uk/support/</span>
+  <span class="na">Sign In</span><span class="pi">:</span> <span class="s">https://selfservice.payments.service.gov.uk/login</span>
+</code></pre></div><h3 id="enable-search">enable_search</h3>
+<p>Enables search functionality. This indexes pages only, and you should only enable this if you have a multipage documentation site.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">enable_search</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div><h3 id="ga-tracking-id">ga_tracking_id</h3>
+<p>Insert the Google Analytics tracking ID to enable Google Analytics.</p>
+<p>If you use Google Analytics, you must follow <a href="https://www.gov.uk/service-manual/technology/working-with-cookies-and-similar-technologies">the guidance on working with cookies</a> in the GOV.UK Service Manual.</p>
+<p>Speak to your technical or engineering community to find out how to enable Google Analytics for your documentation and get a tracking ID.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">ga_tracking_id</span><span class="pi">:</span> <span class="s">UA-XXXX-Y</span>
+</code></pre></div><h3 id="multipage-nav">multipage_nav</h3>
+<p>Enable multipage navigation in the sidebar. Defaults to <code>false</code>.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">multipage_nav</span><span class="pi">:</span> <span class="no">false</span>
+</code></pre></div><h3 id="collapsible-nav">collapsible_nav</h3>
+<p>Enable collapsible navigation in the sidebar. Defaults to <code>false</code>.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">collapsible_nav</span><span class="pi">:</span> <span class="no">false</span>
+</code></pre></div><h3 id="max-toc-heading-level">max_toc_heading_level</h3>
+<p>States how many heading levels to include in the table of contents (ToC). Can take values between 1 and 6. Use a lower number to reduce the length of the ToC. Best practice is to not go higher than 3.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">max_toc_heading_level</span><span class="pi">:</span> <span class="m">6</span>
+</code></pre></div><h3 id="prevent-indexing">prevent_indexing</h3>
+<p>Prevent robots from indexing.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">prevent_indexing</span><span class="pi">:</span> <span class="no">false</span>
+</code></pre></div><h3 id="show-contribution-banner">show_contribution_banner</h3>
+<p>Enable a banner at the bottom of the page that links to the page source, so readers can easily contribute back to the documentation. Defaults to &ldquo;true&rdquo;.</p>
+<p>If you enable this setting, you must also enable the <a href="/configure_project/global_configuration/#github-repo">github_repo</a> setting.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">show_contribution_banner</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div><h3 id="github-repo">github_repo</h3>
+<p>Your documentation project&rsquo;s GitHub repository. You must enable this if you have enabled <a href="/configure_project/global_configuration/#show-contribution-banner">show_contribution_banner</a>.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">github_repo</span><span class="pi">:</span> <span class="s">alphagov/example-repo</span>
+</code></pre></div><h3 id="github-branch">github_branch</h3>
+<p>Your project&rsquo;s GitHub default branch name. You can change this if your default branch is not named main.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">github_branch</span><span class="pi">:</span> <span class="s">source</span>
+</code></pre></div><p>Note: When creating a project using the template this is set to &ldquo;main&rdquo;, but if this setting is not present the default is currently &ldquo;master&rdquo;. This will change in a future major release.</p>
+<h2 id="additional-settings">Additional settings</h2>
+<p>You can enable and disable the following additional settings in the <code>tech-docs.yml</code> file.</p>
+<h3 id="api-path">api_path</h3>
+<p>Define a path to an <a href="/write_docs/add_openapi_spec/#convert-an-openapi-specification-into-documentation">Open API V3 spec file</a>. This can be a relative file path or a URI to a raw file.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">api_path</span><span class="pi">:</span> <span class="s">./source/pets.yml</span>
+</code></pre></div><h3 id="footer-links">footer_links</h3>
+<p>Defines links to show in the site footer.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">footer_links</span><span class="pi">:</span>
+  <span class="na">Accessibility</span><span class="pi">:</span> <span class="s">/accessibility</span>
+</code></pre></div><h3 id="full-service-name">full_service_name</h3>
+<p>The full service name. Include &ldquo;GOV.UK&rdquo; if appropriate.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">full_service_name</span><span class="pi">:</span> <span class="s2">"</span><span class="s">GOV.UK</span><span class="nv"> </span><span class="s">Pay"</span>
+</code></pre></div><h3 id="google-site-verification">google_site_verification</h3>
+<p>Adds a <a href="https://support.google.com/webmasters/answer/35179?hl=en">Google Site verification code</a> to the meta tags.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">google_site_verification</span><span class="pi">:</span> <span class="s">TvDTuyvdstyusadrCSDrctyd</span>
+</code></pre></div><h3 id="quot-owner-slack-workspace-quot-and-quot-default-owner-slack-quot">&ldquo;owner_slack_workspace&rdquo; and &ldquo;default_owner_slack&rdquo;</h3>
+<p>These attributes are used to specify the owner of a page.  See <a href="/configure_project/page_expiry_and_review/#set-review-date-for-pages">page expiry</a> for more information.</p>
+<h3 id="redirects">redirects</h3>
+<p>A list of redirects from an old location to a new location.</p>
+<p>Use this to set up external redirects or if <a href="/configure_project/frontmatter/#old-paths">setting <code>old_paths</code> in the frontmatter</a> does not work.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">redirects</span><span class="pi">:</span>
+  <span class="na">/old-page.html</span><span class="pi">:</span> <span class="s">https://example.org/something-else.html</span>
+  <span class="na">/another/old-page.html</span><span class="pi">:</span> <span class="s">/another/new-page.html</span>
+</code></pre></div><h3 id="show-expiry">show_expiry</h3>
+<p>Enables and disables displaying a red banner when the page needs to be reviewed.</p>
+<p>If not present or set to <code>true</code>, the red banner will display when the page needs to be reviewed. This is the default behaviour.</p>
+<p>If set to <code>false</code>, the red banner will not display when the page needs to be reviewed.</p>
+<p>See <a href="/configure_project/page_expiry_and_review/#set-review-date-for-pages">page expiry</a> for more information.</p>
+<h3 id="show-review-banner">show_review_banner</h3>
+<p>Enables or disables displaying the page review banner, regardless of whether the page needs to be reviewed or not.</p>
+<p>If not present or set to <code>true</code>, the banner will always be displayed on the page. This is the default behaviour.</p>
+<p>If set to <code>false</code>, the banner will not be displayed.</p>
+<p>See <a href="/configure_project/page_expiry_and_review/#set-review-date-for-pages">page expiry</a> for more information.</p>
+<h3 id="source-urls">source_urls</h3>
+<p>If you&rsquo;ve <a href="/configure_project/global_configuration/#show-contribution-banner">enabled the contribution banner</a>, set source_urls to the URLs you want the contribution banner to link to.</p>
+<p>By default, &ldquo;Report issue&rdquo; links to raising a GitHub issue, but by modifying the <code>report_issue_url</code>, it can link to an email address or another page.</p>
+<div class="highlight"><pre class="highlight yaml" tabindex="0"><code><span class="na">source_urls</span><span class="pi">:</span>
+  <span class="na">report_issue_url</span><span class="pi">:</span> <span class="s">mailto:support@example.com</span>
+</code></pre></div><h2 id="build-your-site-using-relative-links">Build your site using relative links</h2>
+<p>You can configure the Technical Documentation Template (TDT) to build your documentation site using relative links to pages and assets.</p>
+<p>To use relative links, add the following lines to your <code>config.rb</code> file:</p>
+<div class="highlight"><pre class="highlight plaintext" tabindex="0"><code>set :relative_links, true
+activate :relative_assets
+</code></pre></div>
+              <div data-module='page-expiry' data-last-reviewed-on="2021-07-01">
+    <div class='page-expiry--not-expired'>
+      This page was last reviewed on 1 July 2020.
+
+        It needs to be reviewed again on 1 July 2021
+        by the page owner <a href="https://gds.slack.com/messages/gds-technical-writing">#gds-technical-writing</a>
+        .
+    </div>
+
+    <div class='page-expiry--expired'>
+      This page was set to be reviewed before 1 July 2021
+       by the page owner <a href="https://gds.slack.com/messages/gds-technical-writing">#gds-technical-writing</a>.
+      This might mean the content is out of date.
+    </div>
+  </div>
+
+          </main>
+
+          <aside>
+              <ul class="contribution-banner">
+                <li><a href="https://github.com/alphagov/tdt-documentation/blob/master/source/configure_project/global_configuration/index.html.md.erb">View source</a></li>
+                <li><a href="https://github.com/alphagov/tdt-documentation/issues/new?body=Problem+with+%27Configure+your+documentation+site%27+%28https%3A%2F%2Ftdt-documentation.london.cloudapps.digital%2F%2Fconfigure_project%2Fglobal_configuration%2F%29&amp;labels=bug&amp;title=Re%3A+%27Configure+your+documentation+site%27">Report problem</a></li>
+                <li><a href="https://github.com/alphagov/tdt-documentation">GitHub Repo</a></li>
+              </ul>
+          </aside>
+
+          <footer class="govuk-footer app-footer" role="contentinfo">
+  <div class="govuk-footer__meta">
+    <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+
+        <ul class="govuk-footer__inline-list">
+            <li class="govuk-footer__inline-list-item">
+              <a class="govuk-footer__link" href="/accessibility/">Accessibility</a>
+            </li>
+        </ul>
+
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        class="govuk-footer__licence-logo"
+        xmlns="http://www.w3.org/2000/svg"
+        viewbox="0 0 483.2 195.7"
+        height="17"
+        width="41"
+      >
+        <path
+          fill="currentColor"
+          d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145"
+        />
+      </svg>
+      <span class="govuk-footer__licence-description">
+        All content is available under the
+        <a
+          class="govuk-footer__link"
+          href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+          rel="license"
+        >Open Government Licence v3.0</a>, except where otherwise stated
+      </span>
+    </div>
+    <div class="govuk-footer__meta-item">
+      <a
+        class="govuk-footer__link govuk-footer__copyright-logo"
+        href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/"
+      >© Crown copyright</a>
+    </div>
+  </div>
+</footer>
+
+        </div>
+      </div>
+    </div>
+
+    
+    <script src="/javascripts/application.js"></script>
+  </body>
+</html>
