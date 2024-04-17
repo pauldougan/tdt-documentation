@@ -1,10 +1,10 @@
 # Tech Docs Template Documentation
 
-This repository was previously used to generate the [documentation website for the Tech Docs Template][tdt-docs]. Following the decommissioning of PaaS that site is no longer live. The documentation remains available in this git repository, although it is no longer maintained.
+> This fork of the alphagov/tdt-documentation repository is manually deployed to Netlify at https://pauldougan-tdt-documentation.netlify.app as a convenience following the decommissioning of PaaS that site is no longer live.
 
 ## Publishing changes
 
-GitHub Actions automatically publishes changes merged into the main branch of this repository.
+Manually deployment.
 
 ## Code of conduct
 
