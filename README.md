@@ -1,6 +1,7 @@
 # Tech Docs Template Documentation
 
-> This fork of the alphagov/tdt-documentation repository is manually deployed to Netlify at https://pauldougan-tdt-documentation.netlify.app as a convenience following the decommissioning of PaaS that site is no longer live.
+https://pauldougan-tdt-documentation.netlify.app
+> This fork of the alphagov/tdt-documentation repository is manually deployed to [Netlify](https://www.netlify.com/) by @pauldougan as a convenience following the decommissioning of [GOV.UK PaaS](https://cloud.service.gov.uk) where the original content was hosted.
 
 ## Publishing changes
 
